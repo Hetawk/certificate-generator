@@ -6,8 +6,4 @@ certificate/success-2fails.csv
 certificate/success-batch-2.csv
 
 certificate/.env
-email_sender/email_status_20240505_132832.txt
-email_sender/email_status_20240505_195549.txt
 
-email_sender/
-email_sender/.env
