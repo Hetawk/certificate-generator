@@ -10,3 +10,4 @@ email_sender/email_status_20240505_132832.txt
 email_sender/email_status_20240505_195549.txt
 
 email_sender/
+email_sender/.env
