@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/certificate/batch-1-results" />
+      <excludeFolder url="file://$MODULE_DIR$/certificate/batch-2-results" />
+      <excludeFolder url="file://$MODULE_DIR$/email_sender/.venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

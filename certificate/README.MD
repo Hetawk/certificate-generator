@@ -64,7 +64,7 @@ Default certificate template: sample
 
 Below is an example of a generated certificate:
 
-![Generated Certificate](results/Aarjtea_Calzre_Nwkymcdcbf_Jr._certificate.png)
+![Generated Certificate](results/Enoch_Kwateh_Dongbo_certificate.png)
 
 ## Inspiration
 This project was inspired by the need to automate certificate generation tasks, which can be time-consuming when done or design manually. The script provides an efficient solution, allowing designers, developers or users to focus on more important tasks.

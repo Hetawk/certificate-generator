@@ -51,7 +51,7 @@ if name_font and id_font:
     # Define coordinates for name, ID, and sex fields
     name_x, name_y = 700, 390  # Center of the name line
     id_x, id_y = 935, 284  # Adjust these coordinates based on your template
-    sex_x, sex_y = 540, 491  # Adjust these coordinates for male and female
+
 
     # Define the width of each character
     char_width = 20  # Adjust this based on the actual width of characters in the font
@@ -122,6 +122,8 @@ if name_font and id_font:
             name_start_x = name_x - (num_characters * 11.6)
         elif 29 <= num_characters <= 30:
             name_start_x = name_x - (num_characters * 12)
+        elif 30 <= num_characters <= 40:
+            name_start_x = name_x - (num_characters * 12.5)
         else:
             name_start_x = name_x - name_width // 2
 
@@ -130,8 +132,10 @@ if name_font and id_font:
         draw.text((id_x, id_y), str(certificate_id), fill="black", font=id_font)
         # Check sex and adjust coordinates and text accordingly
         if sex.lower() == "male":
+            sex_x, sex_y = 513, 491  # Adjust these coordinates for male
             draw.text((sex_x, sex_y), "_", fill="black", font=sex_font)
         elif sex.lower() == "female":
+            sex_x, sex_y = 540, 491  # Adjust these coordinates for female
             draw.text((sex_x, sex_y), "_", fill="black", font=sex_font)
 
         # Save the certificate with participant's name as the file name
